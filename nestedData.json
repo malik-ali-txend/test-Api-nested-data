@@ -1,0 +1,38 @@
+{
+  "id": 12345,
+  "username": "johndoe",
+  "email": "johndoe@example.com",
+  "address": {
+    "street": "123 Main Street",
+    "city": "Anytown",
+    "zipcode": "10001",
+    "geo": {
+      "lat": "40.7128",
+      "lng": "-74.0060"
+    }
+  },
+  "phone": "1-463-123-4567",
+  "website": "johndoe.com",
+  "company": {
+    "name": "Acme Corp",
+    "catchPhrase": "Building the future",
+    "bs": "lorem ipsum"
+  },
+  "posts": [
+    {
+      "postId": 1,
+      "title": "My first post",
+      "content": "Some content here...",
+      "comments": [
+        {"commentId": 101, "text": "Great post!"},
+        {"commentId": 102, "text": "Thanks for sharing."}
+      ]
+    },
+    {
+      "postId": 2,
+      "title": "My second post",
+      "content": "More content...",
+      "comments": []
+    }
+  ]
+}
